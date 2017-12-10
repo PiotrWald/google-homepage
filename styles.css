@@ -1,0 +1,134 @@
+  .b{
+    height: 47px;
+    background-color: #e8e8e8;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+.b2{
+  float: right;
+  margin-left: 10px;
+}
+.b1{
+  float: left;
+  margin-right: 10px;
+
+}
+.b1, .b2{
+  color: #848181;
+  text-decoration: none;
+  margin: 19px;
+  font-size: 12px;
+}
+
+.b1:hover,.b2:hover{
+  text-decoration: underline;
+}
+
+.lol,.hup{
+  left: 800px;
+  position: absolute;
+  top: 500px;
+  height: 200px;
+  display: inline;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.logo{
+position: absolute;
+left: 750px;
+top:200px;
+}
+.search{
+  width: 450px; height: 36px;
+  position: absolute;
+  left: 655px;
+  top: 350px;
+  border-radius: 0;
+  border-color: #eaecef;
+  border-style: solid;
+  padding: 3px 20px;
+
+box-shadow: 1px 1px 0.5px 0.5px #888
+}
+input:hover
+{
+    box-shadow: 2px 2px 1px 1px #888;
+    color: #000;
+    
+  }
+
+.button1,.button2{
+    position: absolute;
+    top: 420px;
+    width: 150px;
+    height: 40px;
+}
+button{
+        border-radius: 0px;
+    background-color: #e8e8e8;
+    height: 40px;
+    width: 150px;
+    border-style: solid;
+}
+  .button2{
+    left: 900px
+  }
+      .button1{
+    left: 745px;
+  }
+  button:hover
+  {
+        border-color: #888;
+    color: #000;
+  }
+  .hup{
+left: 930px;
+color: blue;
+text-decoration: none;
+  }
+  .hup:hover,.r1:hover,.r2:hover{
+    text-decoration: underline;
+  }
+  .r3{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  background-image: url(op1.svg);
+  float: right;  
+}
+  .r3:hover{
+    background-image: url(op2.svg);
+  }
+
+
+  .pasek{
+    float: right;
+    margin-top: 10px;
+    height: 20px;
+  }
+ .r1,.r2{
+      color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 15px;
+    display:inline;
+ }
+ .r4{
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  background-image: url(not2.svg);
+  float: right;  
+ }
+   .r4:hover{
+    background-image: url(not1.svg);}
+     .r5{
+  width: 33px;
+  height: 33px;
+  margin-left: 15px;
+  background-image: url(ico.svg);
+  margin-top: 6px;
+  float: right; }
+  .r3,.r4{margin-top: 10px}
